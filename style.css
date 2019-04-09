@@ -12,14 +12,63 @@ nav{
     justify-content: space-around;
 }
 
-a{
+nav a{
     color: rgb(245, 124, 11);
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
+}
+
+nav a:hover{
+    color: whitesmoke;
+    font-weight: bold;
+    text-decoration: underline;
+    
 }
 
 nav a:first-child{
     color: black;
     font-size: 22pt;
     font-weight: bold;
+}
+
+section{
+    margin-top: 15px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+section div{
+    width: 300px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(243, 241, 241);
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+section div input{
+    margin-bottom: 5px;
+    width: 95%;
+}
+
+section div input:nth-child(4){
+    margin-top:20px;
+    width: 70%;
+    border:none;
+    color: white;
+    background-color: rgb(71, 211, 211);
+    border-radius: 10px;
+    box-shadow: 1px 5px 10px black;
+}
+
+::placeholder{
+
+}
+
+section div input:focus{
+    background-color: yellow;
+    border-c
 }
