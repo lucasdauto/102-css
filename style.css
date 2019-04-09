@@ -34,6 +34,7 @@ nav a:first-child{
 
 section{
     margin-top: 15px;
+    margin-left: 15px;
     height: 300px;
     display: flex;
     justify-content: center;
