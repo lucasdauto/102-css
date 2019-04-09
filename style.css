@@ -16,6 +16,7 @@ nav a{
     color: rgb(245, 124, 11);
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
+    transition: 1s;
 }
 
 nav a:hover{
@@ -96,4 +97,12 @@ footer div{
 
 footer div img{
     width: 32px;
+}
+
+header{
+    height: 600px;
+    background-image: url('images/Phineas_e_Ferb_no_Templo_de_Juatchadoon_Imagem_343.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: last baseline;
 }
